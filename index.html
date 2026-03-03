@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GriefAI – Compassionate AI Support</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-left">
+            <div class="badge">💙 AI-Powered Grief Support</div>
+
+            <h1>
+                Your grief is valid.<br>
+                <span class="highlight">Your feelings matter.</span>
+            </h1>
+
+            <p class="subtitle">
+                Talk it out, whenever you need to. A compassionate AI companion 
+                that listens, understands, and helps you process loss — 
+                on your schedule, at your pace.
+            </p>
+
+            <form id="waitlistForm" class="waitlist-form">
+                <input 
+                    type="email" 
+                    id="email"
+                    placeholder="Enter your .edu email" 
+                    required
+                />
+                <button type="submit">Join Waitlist →</button>
+            </form>
+
+            <p class="fine-print">
+                Free for college students • No credit card required
+            </p>
+
+            <div id="successMessage" class="success hidden">
+                You're on the waitlist 💙
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="mock-card">
+                <div class="voice-icon">🔊</div>
+                <p>Student using voice AI for support</p>
+            </div>
+            <div class="availability">
+                ❤️ Available 24/7<br>
+                <span>Whenever you need us</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to start your healing journey?</h2>
+        <p>
+            Join students already on the waitlist. 
+            Be among the first to access compassionate AI support.
+        </p>
+
+        <ul class="benefits">
+            <li>✔ Early access to the platform</li>
+            <li>✔ Shape the product with your feedback</li>
+            <li>✔ Free lifetime access for early supporters</li>
+            <li>✔ Priority support during launch</li>
+        </ul>
+
+        <form id="ctaForm" class="waitlist-form">
+            <input 
+                type="email" 
+                id="ctaEmail"
+                placeholder="Enter your .edu email" 
+                required
+            />
+            <button type="submit">Join Waitlist →</button>
+        </form>
+
+        <p class="disclaimer">
+            This is a supportive tool, not a replacement for professional mental health care.
+            If you're in crisis, please call 988.
+        </p>
+
+        <div id="ctaSuccess" class="success hidden">
+            Added to waitlist 💙
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
